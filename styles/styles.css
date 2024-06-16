@@ -7,7 +7,6 @@
 * {
   margin: 0;
   padding: 0;
-  margin-bottom: 16px;
 }
 
 body {
@@ -18,8 +17,22 @@ body {
   margin: 0 auto;
 }
 
+.card * {
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  margin: 32px 0;
+}
+
+.card {
+  background-color: antiquewhite;
+  padding: 8px 24px;
+}
+
 .recipe-list {
   text-align: center;
+  list-style: none;
 }
 
 
