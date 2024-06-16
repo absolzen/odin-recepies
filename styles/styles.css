@@ -1,6 +1,6 @@
 *,
-* ::before,
-* ::after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -15,8 +15,16 @@ body {
   line-height: 1.5;
 }
 
+.recipe-list {
+  text-align: center;
+}
+
+
 h1 {
   text-align: center;
+  font-size: 30px;
+  padding: 24px;
+
 }
 
 img {
